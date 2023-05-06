@@ -1,0 +1,172 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: rgb(234, 239, 243);
+}
+
+/* Header styles */
+header {
+  background-color: #008080;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Main styles */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+section ul li a {
+  color: #008080;
+  text-decoration: none;
+}
+
+.card {
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+.card img {
+  max-width: 100%;
+  width: 670px;
+  height: 300px;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Footer styles */
+footer {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.col-md-6 {
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #008080;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul li i {
+  margin-right: 10px;
+  color: #008080;
+}
+
+.copy-right {
+  background-color: #eee;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.copy-right p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
